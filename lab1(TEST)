@@ -1,0 +1,19 @@
+#include <iostream>
+#include<stdlib.h>
+#include<stdio.h>
+#include<fstream>
+
+
+using namespace std;
+
+void main()  {
+//ofstream file1;
+  //  file1.open("file1.txt");
+  //  file1.close();
+    char buf[50];
+    ifstream file1("file1.txt");
+    file1>>buf; // считан первый символ
+    cout<<buf
+
+    return;
+    }
